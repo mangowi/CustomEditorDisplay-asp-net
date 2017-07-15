@@ -21,5 +21,15 @@ namespace CustomDisplay.Controllers
         {
             return View();
         }
+
+        public ActionResult Edit(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public ActionResult Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
