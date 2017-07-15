@@ -232,6 +232,7 @@
     <Content Include="Views\Home\Details.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\decimal.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\PreOrderOrAvailable.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\DateTimePicker.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
