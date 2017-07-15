@@ -13,6 +13,7 @@ namespace CustomDisplay.Controllers
         public ActionResult Index() {
 
             var products = Products.GetProducts();
+          
             return View(products);
         }
 
@@ -24,7 +25,9 @@ namespace CustomDisplay.Controllers
 
         public ActionResult Edit(int id)
         {
-            throw new NotImplementedException();
+
+            return View();
+
         }
 
         public ActionResult Delete(int id)

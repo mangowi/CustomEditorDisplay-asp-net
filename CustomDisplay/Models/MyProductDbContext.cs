@@ -10,7 +10,7 @@ namespace CustomDisplay.Models
     {
 
 
-        public MyProductDbContext() : base("name = CustomDispalyProduct")
+        public MyProductDbContext() : base(@"Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=Products;Integrated Security=True;Pooling=False")
         {
             
         }
