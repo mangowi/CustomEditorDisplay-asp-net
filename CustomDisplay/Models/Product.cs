@@ -13,7 +13,8 @@ public class Product
 
         public string Name { get; set; }
         public decimal Price { get; set; }
-
+        public string Description { get; set; }
+        [DataType(DataType.MultilineText)]
         [UIHint("PreOrderOrAvailable")]
         public DateTime ReleaseDate { get; set; }
         public int ProductId { get; set; }
