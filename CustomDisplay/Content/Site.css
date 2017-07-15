@@ -16,3 +16,15 @@ textarea {
     max-width: 280px;
 }
 
+.currency {
+    color: green;
+}
+
+.preoder {
+    color: red;
+    background-color: yellow;
+}
+
+.available {
+    color: black;
+}
