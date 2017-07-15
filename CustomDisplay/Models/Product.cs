@@ -15,7 +15,8 @@ public class Product
         public decimal Price { get; set; }
         public string Description { get; set; }
         [DataType(DataType.MultilineText)]
-        [UIHint("PreOrderOrAvailable")]
+       // [UIHint("PreOrderOrAvailable")]
+       [UIHint("DateTimePicker")]
         public DateTime ReleaseDate { get; set; }
         public int ProductId { get; set; }
     }
